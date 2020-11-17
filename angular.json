@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "seng-angular-test"
+    }
+  },
+  "defaultProject": "seng-angular-test",
+  "cli": {
+    "analytics": "3b2b552c-80e1-4c9f-af03-e52531c5d049"
+  }
 }
