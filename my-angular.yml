@@ -1,0 +1,10 @@
+---
+- name: Deploy Angular
+  hosts: webservers
+  become: yes
+
+  tasks:
+  - name: Copy file
+    copy:
+      src: /opt/angular-deploy/
+      dest: /usr/share/nginx/html
