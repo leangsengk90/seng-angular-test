@@ -1,0 +1,9 @@
+---
+- name: docker deploy
+  hosts: docker
+  become: yes
+  become_method: sudo
+
+  tasks:
+  - name: deploy container
+    shell: sudo docker run --name docker-cont -d -p 85:80 xeng/angular-img
