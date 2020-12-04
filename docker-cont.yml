@@ -1,6 +1,6 @@
 ---
 - name: docker deploy
-  hosts: docker
+  hosts: docker-servers
   become: yes
   become_method: sudo
 
